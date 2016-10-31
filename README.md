@@ -1,6 +1,9 @@
-#-------------------------
-PART THREE: AnotherFormcopy
-#-------------------------
+#---------------------------------------------------
+PART THREE: Not so fast, yet another Flask Tutorial
+AnotherForm_deployed
+#---------------------------------------------------
+
+
 
 This is yet another Flask tutorial in the world, but...I don't jump from hello world to deployment. My aim was to explain the hidden brain of flask a bit more pedantically for newbies and none software developers. 
 
