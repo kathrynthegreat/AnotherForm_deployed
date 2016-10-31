@@ -1,5 +1,5 @@
 import psycopg2
-
+from Form.config import *
 
 #def dict_cursor(cnn):
 #    return cnn.cursor()
