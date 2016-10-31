@@ -5,8 +5,11 @@ PART THREE: AnotherFormcopy
 This is yet another Flask tutorial in the world, but...I don't jump from hello world to deployment. My aim was to explain the hidden brain of flask a bit more pedantically for newbies and none software developers. 
 
 This code belongs to the the tutorial katya_flask_tutorial https://github.com/kathrynthegreat/katya_flask_tutorial
+
 Part One uses: https://github.com/kathrynthegreat/katya_flask_tutorial/tree/master/1.AnotherForm_as_module
+
 Part Two uses: https://github.com/kathrynthegreat/katya_flask_tutorial/tree/master/2.AnotherForm_as_package
+
 Part Three uses: https://github.com/kathrynthegreat/anotherform_deployed
 
 The app is deployed to: https://salty-cove-96240.herokuapp.com/
