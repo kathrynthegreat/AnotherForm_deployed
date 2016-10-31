@@ -19,14 +19,19 @@ Part Three uses: https://github.com/kathrynthegreat/anotherform_deployed
 The app is deployed to: https://salty-cove-96240.herokuapp.com/
 
 In this section we will deploy this small but not simple app to Heroku. A number of steps (more detailed list is in steps.txt) to do this are infront of us:
--Setting up an account, app, and DB on Heroku 
--Creating Procfile to tell Heroku how to run stuff
--Creating pgsql files to create tables
--Replacing db connections with those on Heroku
 -Creating a config.py file to pull global vars connecting to Heroku db instance
--The cat.jpg, steps.tex, and README.md are anciallary to the app
 
--For the purposes of lived Python meetup tutorial December 17, 2016, we'll be going through these step-by-step.
+-Setting up an account, app, and DB on Heroku 
+
+-Creating Procfile to tell Heroku how to run stuff
+
+-Creating pgsql files to create tables
+
+-Replacing db connections with those on Heroku
+
+-Spin up a DB on Heroku
+
+-For the purposes of live Python meetup tutorial December 17, 2016, we'll be going through these step-by-step.
 
 
 #Here's what our new file structure looks like now locally, which will get pushed to Git and automatically deployed to Heroku:
@@ -52,4 +57,6 @@ AnotherForm_deployed
 │   ├──  scripts/           # Postgres database creation scripts 
 │   │   ├──  test.pgsql     # Test pgsql
 ```
+
+-The cat.jpg, steps.tex, and README.md are anciallary to the app
 
