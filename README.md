@@ -18,8 +18,9 @@ Creating pgsql files to create tables
 Replacing db connections with those on Heroku
 Creating a config.py file to pull global vars connecting to Heroku db instance
 
+The cat.jpg, steps.tex, and README.md are anciallary to the app
+
 #Here's what our new file structure looks like now locally, which will get pushed to Git and automatically deployed to Heroku:
-#The cat.jpg, steps.tex, and README.md are anciallary to the app
 
 ```
 AnotherFormcopy.
