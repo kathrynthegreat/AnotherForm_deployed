@@ -26,7 +26,7 @@ The cat.jpg, steps.tex, and README.md are anciallary to the app
 #Here's what our new file structure looks like now locally, which will get pushed to Git and automatically deployed to Heroku:
 
 ```
-AnotherFormcopy.
+AnotherForm_deployed
 ├── .gitignore              # So that we don't commit compiled files or our environment passwords
 ├── Procfile                # Use the Procfile to tell Heroku how to run various pieces of your app
 ├── .env                    # So that we don't commit compiled files or our environment passwords
