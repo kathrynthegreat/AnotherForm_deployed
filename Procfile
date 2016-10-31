@@ -1,1 +1,1 @@
-web: gunicorn anotherformcopy:app
+web: gunicorn Form:app
