@@ -1,5 +1,6 @@
 import psycopg2
-from Form.config import *
+import psycopg2.extras
+from .config import *
 
 #def dict_cursor(cnn):
 #    return cnn.cursor()
@@ -8,7 +9,7 @@ from Form.config import *
 #DB_URL="host=localhost user=postgres password=mishi dbname=flask port=5433"
 
 
-def dict_cursor(cnn, cursor_factory=extras.RealDictCursor):
+def dict_cursor(cnn, cursor_factory=psycopg2.extras.RealDictCursor):
     return cnn.cursor(cursor_factory=cursor_factory)
 
 
