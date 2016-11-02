@@ -1,6 +1,6 @@
-
-Deploying to heroku
-
+--------------------
+#Deploying to heroku
+--------------------
 
 Check out: 
 https://devcenter.heroku.com/articles/getting-started-with-python#deploy-the-app
@@ -28,7 +28,7 @@ http://www.vertabelo.com/blog/technical-articles/web-app-development-with-flask-
 $ heroku login
 - Set up your git account
 - Push the app's code to git
-- Make sure the webhooks in git settings are turned on
+- Make sure the webhooks in git settings page are turned on
 
 ---------------
 #Setup the app 
@@ -47,7 +47,7 @@ $ git remote -v
 #Setup the DB 
 ---------------
 
-- Add heroku postgres manually or heroku addons:create heroku-postgresql
+- Add the heroku postgres addon manually or heroku addons:create heroku-postgresql
 - Get the url to the postgres -> go to the settings page (go here: https://postgres.heroku.com/databases/)
 - Pay attention to what that the link is called on heroku, & make sure it's called the same thing in ` DB_URL = os.environ["DATABASE_URL"] ` of the config file 
 - Make sure postgres is installed 
