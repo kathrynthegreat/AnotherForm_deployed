@@ -1,6 +1,6 @@
 Flask-BasicAuth
-Flask==0.10.1
+Flask==0.12.3
 psycopg2==2.6.1
 requests==2.20.0
-gunicorn==19.3.0
+gunicorn==19.5.0
 
